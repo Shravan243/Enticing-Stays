@@ -52,7 +52,7 @@ export default function Rooms() {
         res = await api.post("/api/rooms", form);
       }
 
-      alert(res.data.message || "Success");
+      alert("Success");
 
       resetForm();
       loadRooms();
