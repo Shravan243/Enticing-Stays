@@ -79,7 +79,7 @@ export default function Rooms() {
 
     try {
       const res = await api.delete(`/api/rooms/${id}`);
-      alert(res.data.message);
+      // alert(res.data.message);
       loadRooms();
     } catch {
       alert("Delete failed");
